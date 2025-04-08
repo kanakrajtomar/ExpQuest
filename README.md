@@ -38,38 +38,25 @@
 
 expquest/ ├── backend/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── services/ │ └── server.js ├── frontend/ (coming soon) └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
 ## 🔧 Setup Instructions
 
 1. **Clone the Repository**
-```bash
+
 git clone https://github.com/yourusername/expquest.git
 cd expquest
 Install Dependencies
-
-bash
-Copy
-Edit
 cd backend
 npm install
 Configure Environment Variables Create a .env file in the backend folder with:
 
-env
-Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 Start the Server
 
-bash
-Copy
-Edit
 npm start
 📡 API Endpoints (Backend)
 Method	Endpoint	Description
@@ -98,9 +85,3 @@ MIT License. Feel free to use and customize.
 🙌 Developed With Love
 Crafted for smart PG/hostel management.
 ExpQuest – Experience Booking, the Smart Way.
-
-vbnet
-Copy
-Edit
-
-Let me know if you'd like this in Hindi too or want a GitHub badge/CI/CD section added!
